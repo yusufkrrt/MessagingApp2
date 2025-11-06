@@ -1,0 +1,153 @@
+import { StyleSheet } from 'react-native';
+
+export const profileStyles = StyleSheet.create({
+  container: {
+    flexGrow: 1,
+    backgroundColor: '#0A0A0A',
+    padding: 20,
+  },
+  formContainer: {
+    width: '100%',
+  },
+  inputGroup: {
+    marginBottom: 20,
+  },
+  label: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#fff',
+    marginBottom: 8,
+  },
+  input: {
+    backgroundColor: '#1A1A1A',
+    color: '#fff',
+    borderWidth: 1.5,
+    borderColor: '#2A2A2A',
+    borderRadius: 12,
+    padding: 16,
+    fontSize: 16,
+  },
+  textArea: {
+    minHeight: 100,
+    textAlignVertical: 'top',
+  },
+  inputDisabled: {
+    backgroundColor: '#151515',
+    borderColor: '#252525',
+    color: '#aaa',
+  },
+  inputError: {
+    borderColor: '#E63946',
+  },
+  errorText: {
+    color: '#E63946',
+    fontSize: 12,
+    marginTop: 6,
+  },
+  avatarContainer: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: '#4E9F3D',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 16,
+    shadowColor: '#4E9F3D',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+    position: 'relative',
+    overflow: 'hidden',
+  },
+  avatarImage: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 60,
+  },
+  avatarText: {
+    fontSize: 40,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  cameraIconContainer: {
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    backgroundColor: '#1A1A1A',
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#4E9F3D',
+  },
+  cameraIcon: {
+    fontSize: 18,
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#0A0A0A',
+  },
+  loadingText: {
+    color: '#fff',
+    marginTop: 16,
+    fontSize: 16,
+  },
+  header: {
+    alignItems: 'center',
+    marginTop: 20,
+    marginBottom: 40,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 14,
+    color: '#888',
+    textAlign: 'center',
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    marginTop: 30,
+    marginBottom: 40,
+    gap: 12,
+  },
+  button: {
+    paddingVertical: 16,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 56,
+  },
+  primaryButton: {
+    backgroundColor: '#4E9F3D',
+    flex: 1,
+    shadowColor: '#4E9F3D',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  secondaryButton: {
+    backgroundColor: 'transparent',
+    borderWidth: 1.5,
+    borderColor: '#2A2A2A',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  buttonTextSecondary: {
+    color: '#888',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+});
